@@ -1,0 +1,13 @@
+{
+    "name": "web-shop",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "start": "cd server/built && server.js",
+        "prebuild": "cd server && npm run start",
+        "build": "cd client && npm run build"
+        
+    }
+}
