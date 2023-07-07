@@ -6,7 +6,7 @@
     },
     "scripts": {
         "start": "cd server/built && server.js",
-        "prebuild": "cd server && npm run start",
+        "prebuild": "cd server && npm install && npm run start",
         "build": "cd client && npm run build"
         
     }
